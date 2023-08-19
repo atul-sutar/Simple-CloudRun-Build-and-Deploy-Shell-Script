@@ -17,3 +17,5 @@ Usage :
 2. Run the command as shown below, passing the first argument as the service name and tag name, separated by a colon.
 
 `deploy cloud-run-service:tag-here`
+
+[^1] I welcome any suggestions. [^1]
