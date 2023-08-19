@@ -30,13 +30,13 @@ echo -e "${YELLOW} [*] Please Wait While Container is Being Built...${NC}"
 
 echo -e "\n"
 # Time Container Build
-START=$(date %s)
+START=$(date +%s)
 
 # Build Command
 gcloud builds submit --tag=${REGISTRYPATH}/$1 --quiet &>> /dev/null
 CHECK=$(echo $?)
 
-END=$(date %s)
+END=$(date +%s)
 
 if [ $CHECK -eq 0 ]
 then
