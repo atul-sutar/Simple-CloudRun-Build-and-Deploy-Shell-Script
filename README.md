@@ -15,4 +15,5 @@ Prerequisites :
 Usage :
 1. Move into the directory where the code you want to deploy is.
 2. Run the command as shown below, passing the first argument as the service name and tag name, separated by a colon.
+
 `deploy cloud-run-service:tag-here`
