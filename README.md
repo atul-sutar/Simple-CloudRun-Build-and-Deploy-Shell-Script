@@ -18,4 +18,4 @@ Usage :
 
 `deploy cloud-run-service:tag-here`
 
-[^1] I welcome any suggestions. [^1]
+I welcome any suggestions.
